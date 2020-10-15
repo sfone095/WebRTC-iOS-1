@@ -32,3 +32,5 @@ wss.on('connection', (ws) => {
         console.log(`Client disconnected. Total connected clients: ${wss.clients.size}`)
     }
 });
+
+server.listen(8080);
